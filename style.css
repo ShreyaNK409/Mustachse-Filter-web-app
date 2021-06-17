@@ -1,0 +1,32 @@
+body {
+    color: lavender;
+}
+
+h2 {
+    font-style: bold;
+    font-size: 25px;
+}
+
+.snap_btn {
+    background-color: lavender;
+    box-shadow: 5px 5px 18px lavender;
+    color: black;
+    border-radius: 3px;
+    border-color: white;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 1px 1px 38px rgb(105, 70, 235);
+    }
+
+    to {
+        box-shadow: 1px 1px 38px whitesmoke;
+    }
+}
